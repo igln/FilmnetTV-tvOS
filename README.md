@@ -72,9 +72,7 @@ We welcome contributions to improve the app, fix bugs, or add new features!
 
 ## License
 
-(Please choose and specify an open-source license, such as MIT, GPL, etc. If you have a `LICENSE.md` file, link to it here.)
-
-Distributed under the **[License Name]**. See `LICENSE.md` for more information.
+Distributed under the **GPL**.
 
 ## Contact
 

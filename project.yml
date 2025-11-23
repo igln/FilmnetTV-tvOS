@@ -1,0 +1,18 @@
+name: FilmnetTV
+targets:
+  FilmnetTV:
+    type: application
+    platform: tvOS
+    deploymentTarget: 16.0
+    sources: [FilmnetTV]
+    dependencies:
+      - sdk: GameController.framework
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.FilmnetTV
+        INFOPLIST_FILE: FilmnetTV/Info.plist
+        MARKETING_VERSION: 1.0
+        CURRENT_PROJECT_VERSION: 1
+        ENABLE_BITCODE: NO
+        FRAMEWORK_SEARCH_PATHS: $(inherited)
+        LD_RUNPATH_SEARCH_PATHS: $(inherited) @executable_path/Frameworks
